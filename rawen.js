@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = ".";
+const prefix = ":";
 client.on("message", message => {
   if (message.content === ".") {
     if (message.channel.guild) {
@@ -25,4 +25,4 @@ client.on("message", message => {
   }
 });
 
-client.login("")
+client.login("Xl4bTdulmo0gXEHqhrbk63Hn4-ylgOC7")
